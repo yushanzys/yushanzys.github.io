@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 100px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    line-height: 2rem;
+}
+
+.my-name {
+    font-size: 40px;
+}
+.profile-picture {
+    max-width: 35%;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.self-intro {
+    flex: 1;
+    font-size: 20px;
+}
+
+.project {
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.project-picture {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.project-description {
+    align-items: center;
+    font-size: 18px;
+    line-height: 1.8rem;
+    text-align: justify;
+}
+
+.project-demo {
+    margin-top: 20px;
+}
+
+.project-demo > video {
+    width: 40vw;
+}
+
+.project-desc {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+}
+
+.project-title {
+    width: 100%;
+    font-size: 25px;
+    margin-top: 20px;
+}

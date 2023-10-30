@@ -3,10 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My Personal Website!</h1>
-    <p>This is a simple site hosted on GitHub Pages.</p>
+    <div class="intro">
+        <img src="IMG_1542.jpeg" class="profile-picture">
+        <div class="self-intro">
+            <div class="my-name">Hello! I'm Yushan Zhou.</div>
+            <p>I'm a first-year Ph.D. student at <a href="https://rochester.edu/">University of Rochester</a>,<a href="https://www.cs.rochester.edu/">Computer Science department</a>, working with <a href="https://zhenbai.io/">Prof. Zhen Bai</a>. My reseach interests include Human-Computer Interaction, AR/VR, educational technology, and AI education for K-12. I'm passionate about buidling interactive and immersive educational applications for the youth to provide active and adaptive learning experiences.</p>
+            <p>Check my full CV <a href="Yushan Zhou Resume 2023.pdf">here</a>.</p>
+            <p>Contact: yzhou101 AT ur DOT rochester DOT edu</p>
+        </div>
+    </div>
+    
+    <div class="project">
+        <p>Projects</p>
+        <div class="project-title">
+            AR4ML: Augmented reality for Machine Learning education for the youth
+        </div>
+        <div class="project-desc">
+            <div class="project-demo">
+                <video controls>
+                    <source src="path_to_demo_video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="project-description">
+                <p>The goal of AR4ML project is to build intelligent education applications to utilize Augmented Reality (AR) unique benefits in Machine
+                    Learning (ML) education for K12 students. We hosted 10+ co-design sessions with stakeholders, including AI experts, middle school teachers, and students, to
+                    understand students’ mindsets, and designed and implemented multiple AR mobile applications to
+                    teach middle school students the concepts of multidimensional data objects, data similarity, content-based
+                    recommendation system algorithms, and related ethical issues in real-life recommendations.</p>
+                <p>We conducted 10+ user study sessions with middle school students with diverse backgrounds and analyzed user behaviors through verbal and non-verbal frameworks
+                    and qualitative and quantitative methods. Results showed that participants had significant increases in knowledge gain and engagement, 
+                    and developed more interests and confidence in their atituides towards AI knowledge. </p>
+            </div>
+        </div>
+        <div class="project-title">
+            AI4K12: Web-based educational tools to teach K-12 students data visualization and analysis
+        </div>
+        <div class="project-desc">
+            <div class="project-demo">
+                <video controls>
+                    <source src="path_to_demo_video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="project-description">
+                <p>The goal is to build web-based tools to teach K12 students ML knowledge with content they are familiar with, and
+                    eventually to build authoring tools for K12 teachers and enable them to design and build ML lessons that fit different
+                    curriculums.</p>
+                <p>We conducted 25 user study sessions with high school students to evaluate the glyph data visualization and interaction
+                    design. We analyzed user behaviors through pre- and post- interviews and applied qualitative methods to evaluate participants’
+                    ML knowledge gain, user satisfaction and effectiveness of the design. </p>
+            </div>
+        </div>
+        <div class="project-title">
+            AR4Assembly: Augmented reality facilitated LEGO assembly
+        </div>
+        <div class="project-desc">
+            <div class="project-demo">
+                <iframe width="560" height="315" src="https://youtube.com/embed/4-_vSicpMVk?si=UxPcwnB6w6E8n6o6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="project-description">
+                <p>The goal is to build an AR mobile application to facilitate LEGO assembly. Two main functions included 1) detected pictures of the entire LEGO set and generate an animation of assembly process from beginning to the end. 
+                    2) detected the ongoing assembled object step and prompted instructions for the next step.
+                    </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- You can replicate the <div class="project">...</div> section for each project. -->
+
 </body>
 </html>
